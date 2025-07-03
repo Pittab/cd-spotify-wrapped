@@ -46,7 +46,7 @@ def menu():
     metaloc= input("metadata location in relation to where this is being run: ")
     fetchcddata(metaloc)
     while True:
-      match input("welcome to le dingus mcwrapper, a to add, r to record a played album, s to see stats and q to quit: "):
+      match input("Welcome to CD wrapped, a to add an album, r to log playing an album, s to see stats and q to quit: "):
         case "a":
             add()
             dumpmeta(metaloc)
