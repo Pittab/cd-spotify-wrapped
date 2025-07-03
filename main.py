@@ -49,8 +49,10 @@ def menu():
       match input("welcome to le dingus mcwrapper, a to add, r to record a played album, s to see stats and q to quit: "):
         case "a":
             add()
+            dumpmeta(metaloc)
         case "r":
             recordplayed()
+            dumpmeta(metaloc)
         case "s":
             stats()
         case "q":
