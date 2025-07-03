@@ -1,2 +1,2 @@
 # cd-spotify-wrapped
-spotify wrapped for my CD collection
+spotify wrapped for your CD collection
